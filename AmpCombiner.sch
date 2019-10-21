@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Untitled-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -20,7 +19,7 @@ U 1 1 5D85E20C
 P 4650 2200
 F 0 "U1" H 4650 2415 50  0000 C CNN
 F 1 "TDA1517" H 4650 2324 50  0000 C CNN
-F 2 "KiLib:SOT110-1" H 4650 2200 50  0001 C CNN
+F 2 "Package_SIP:SIP9_Housing" H 4650 2200 50  0001 C CNN
 F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/19199/PHILIPS/TDA1517.html" H 4650 2200 50  0001 C CNN
 F 4 "NXP/PHILIPS" H 0   0   50  0001 C CNN "MFR"
 F 5 "TDA1517" H 0   0   50  0001 C CNN "MPN"
