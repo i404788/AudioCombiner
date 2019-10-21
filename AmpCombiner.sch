@@ -1,0 +1,593 @@
+EESchema Schematic File Version 4
+LIBS:Untitled-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KiLib:TDA1517 U1
+U 1 1 5D85E20C
+P 4650 2200
+F 0 "U1" H 4650 2415 50  0000 C CNN
+F 1 "TDA1517" H 4650 2324 50  0000 C CNN
+F 2 "KiLib:SOT110-1" H 4650 2200 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/19199/PHILIPS/TDA1517.html" H 4650 2200 50  0001 C CNN
+F 4 "NXP/PHILIPS" H 0   0   50  0001 C CNN "MFR"
+F 5 "TDA1517" H 0   0   50  0001 C CNN "MPN"
+F 6 "AliExpress/Si-Tai&SH" H 0   0   50  0001 C CNN "SPR"
+F 7 "https://nl.aliexpress.com/item/32970631051.html?spm=a2g0o.productlist.0.0.b32c2a7chJHszJ&algo_pvid=3b9d9c3a-b2ff-4481-92e5-2318cac86670&algo_expid=3b9d9c3a-b2ff-4481-92e5-2318cac86670-0&btsid=5ff8154c-3bd9-49de-8f45-c31e84d41116&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_52" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    4650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D85FCD1
+P 3400 2250
+F 0 "C3" V 3148 2250 50  0000 C CNN
+F 1 "220u 25v" V 3239 2250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3438 2100 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/400/eadmlcc_halogenfree_fg_en-775693.pdf" H 3400 2250 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
+F 5 "FG18X7R1E105KRT00 " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "810-FG18X7R1E105KRT0 " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D860B3C
+P 3400 2500
+F 0 "C4" V 3560 2500 50  0000 C CNN
+F 1 "220u 25v" V 3651 2500 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3438 2350 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/400/eadmlcc_halogenfree_fg_en-775693.pdf" H 3400 2500 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
+F 5 "FG18X7R1E105KRT00 " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "810-FG18X7R1E105KRT0 " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3400 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D861436
+P 3700 2250
+F 0 "R3" V 3600 2250 50  0000 C CNN
+F 1 "10k" V 3700 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3630 2250 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-540723.pdf" H 3700 2250 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "CFR25SJT-52-10K " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "603-CFR25SJT-52-10K " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3700 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D861A3D
+P 3700 2500
+F 0 "R4" V 3600 2500 50  0000 C CNN
+F 1 "10k" V 3700 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3630 2500 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-540723.pdf" H 3700 2500 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "CFR25SJT-52-10K " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "603-CFR25SJT-52-10K " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D8656AD
+P 3300 3400
+F 0 "C2" V 3460 3400 50  0000 C CNN
+F 1 "220u 25v" V 3551 3400 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3338 3250 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/400/eadmlcc_halogenfree_fg_en-775693.pdf" H 3300 3400 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
+F 5 "FG18X7R1E105KRT00 " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "810-FG18X7R1E105KRT0 " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3300 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D865CFD
+P 3300 3100
+F 0 "C1" V 3048 3100 50  0000 C CNN
+F 1 "220u 25v" V 3139 3100 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3338 2950 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/400/eadmlcc_halogenfree_fg_en-775693.pdf" H 3300 3100 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
+F 5 "FG18X7R1E105KRT00 " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "810-FG18X7R1E105KRT0 " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3300 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D866D51
+P 3600 3100
+F 0 "R1" V 3500 3100 50  0000 C CNN
+F 1 "10k" V 3600 3100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 3100 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-540723.pdf" H 3600 3100 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "CFR25SJT-52-10K " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "603-CFR25SJT-52-10K " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3600 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D8676BF
+P 3600 3400
+F 0 "R2" V 3500 3400 50  0000 C CNN
+F 1 "10k" V 3600 3400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 3400 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-540723.pdf" H 3600 3400 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "CFR25SJT-52-10K " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "603-CFR25SJT-52-10K " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3600 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 5D88B516
+P 4100 1700
+F 0 "C5" H 3982 1654 50  0000 R CNN
+F 1 "100u 25v" H 3982 1745 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4138 1550 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/315/ABA0000C1218-1131230.pdf" H 4100 1700 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ECA-1EM101B " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ECA-1EM101B " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    4100 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D88BC25
+P 4100 1550
+F 0 "#PWR0101" H 4100 1300 50  0001 C CNN
+F 1 "GND" H 4105 1377 50  0000 C CNN
+F 2 "" H 4100 1550 50  0001 C CNN
+F 3 "" H 4100 1550 50  0001 C CNN
+	1    4100 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0102
+U 1 1 5D88FCDB
+P 5200 950
+F 0 "#PWR0102" H 5200 800 50  0001 C CNN
+F 1 "+9V" H 5215 1123 50  0000 C CNN
+F 2 "" H 5200 950 50  0001 C CNN
+F 3 "" H 5200 950 50  0001 C CNN
+	1    5200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5D890D1A
+P 5350 1450
+F 0 "C7" V 5098 1450 50  0000 C CNN
+F 1 "100n 25v" V 5189 1450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5388 1300 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/427/kseries-211347.pdf" H 5350 1450 50  0001 C CNN
+F 4 "Vishay / BC Components" H 0   0   50  0001 C CNN "MFR"
+F 5 "K104K15X7RF5TH5 " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "594-K104K15X7RF5TH5 " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5350 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5D891506
+P 5350 1050
+F 0 "C6" V 5605 1050 50  0000 C CNN
+F 1 "2200u 25v" V 5514 1050 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5388 900 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/293/e-uhw-1280393.pdf" H 5350 1050 50  0001 C CNN
+F 4 "Nichicon" H 0   0   50  0001 C CNN "MFR"
+F 5 "UHW1E222MHD1TO " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "647-UHW1E222MHD1TO " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5350 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D8951DA
+P 5500 1450
+F 0 "#PWR0103" H 5500 1200 50  0001 C CNN
+F 1 "GND" V 5505 1322 50  0000 R CNN
+F 2 "" H 5500 1450 50  0001 C CNN
+F 3 "" H 5500 1450 50  0001 C CNN
+	1    5500 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D895856
+P 5500 1050
+F 0 "#PWR0104" H 5500 800 50  0001 C CNN
+F 1 "GND" V 5505 922 50  0000 R CNN
+F 2 "" H 5500 1050 50  0001 C CNN
+F 3 "" H 5500 1050 50  0001 C CNN
+	1    5500 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5D896120
+P 5200 1800
+F 0 "SW1" H 5200 2085 50  0000 C CNN
+F 1 "SW_SPDT" H 5200 1994 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 5200 1800 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/60/os-1382783.pdf" H 5200 1800 50  0001 C CNN
+F 4 "C&K" H 0   0   50  0001 C CNN "MFR"
+F 5 "OS102011MS2QN1C " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "611-OS102011MS2QN1C " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5200 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D8A06C3
+P 5650 2100
+F 0 "D1" H 5643 1845 50  0000 C CNN
+F 1 "LED" H 5643 1936 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5650 2100 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/90/1366-C4SMM-RJF-GJF-BJF-1064228.pdf" H 5650 2100 50  0001 C CNN
+F 4 "Cree, Inc." H 0   0   50  0001 C CNN "MFR"
+F 5 "C4SMM-RJF-CS24QBB2" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "941-C4SMM-RJF-CS24QBB2" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5650 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D8A13C8
+P 6100 2100
+F 0 "#PWR0105" H 6100 1850 50  0001 C CNN
+F 1 "GND" V 6105 1972 50  0000 R CNN
+F 2 "" H 6100 2100 50  0001 C CNN
+F 3 "" H 6100 2100 50  0001 C CNN
+	1    6100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D8A1BC2
+P 5950 2100
+F 0 "R7" V 5743 2100 50  0000 C CNN
+F 1 "1.5k" V 5950 2100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 2100 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/427/ccf07-239748.pdf" H 5950 2100 50  0001 C CNN
+F 4 "Vishay / Dale" H 0   0   50  0001 C CNN "MFR"
+F 5 "CCF071K50GKE36 " H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "71-CCF071K50GKE36 " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5950 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D8B2213
+P 4650 2750
+F 0 "#PWR0106" H 4650 2500 50  0001 C CNN
+F 1 "GND" H 4655 2577 50  0000 C CNN
+F 2 "" H 4650 2750 50  0001 C CNN
+F 3 "" H 4650 2750 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 5D8B7E21
+P 5950 2450
+F 0 "C8" V 6205 2450 50  0000 C CNN
+F 1 "1000u 25v" V 6114 2450 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5988 2300 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf" H 5950 2450 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "EEU-FP1E102B" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-EEU-FP1E102B " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5950 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C9
+U 1 1 5D8B87C9
+P 5950 2750
+F 0 "C9" V 5787 2750 50  0000 C CNN
+F 1 "1000u 25v" V 5696 2750 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5988 2600 50  0001 C CNN
+F 3 "https://nl.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf" H 5950 2750 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "EEU-FP1E102B" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-EEU-FP1E102B " H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D8C57A0
+P 4250 2400
+F 0 "#PWR0108" H 4250 2150 50  0001 C CNN
+F 1 "GND" V 4300 2400 50  0000 R CNN
+F 2 "" H 4250 2400 50  0001 C CNN
+F 3 "" H 4250 2400 50  0001 C CNN
+	1    4250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D8C85EB
+P 6800 1350
+F 0 "H1" H 6900 1399 50  0000 L CNN
+F 1 "Pad+" H 6900 1308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 6800 1350 50  0001 C CNN
+F 3 "~" H 6800 1350 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D8C88AE
+P 7150 1350
+F 0 "H2" H 7250 1399 50  0000 L CNN
+F 1 "Pad-" H 7250 1308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 7150 1350 50  0001 C CNN
+F 3 "~" H 7150 1350 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5D8C9E6F
+P 7150 1450
+F 0 "#PWR0111" H 7150 1200 50  0001 C CNN
+F 1 "GND" H 7155 1277 50  0000 C CNN
+F 2 "" H 7150 1450 50  0001 C CNN
+F 3 "" H 7150 1450 50  0001 C CNN
+	1    7150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR0112
+U 1 1 5D8CA848
+P 6800 1450
+F 0 "#PWR0112" H 6800 1300 50  0001 C CNN
+F 1 "+9V" H 6815 1623 50  0000 C CNN
+F 2 "" H 6800 1450 50  0001 C CNN
+F 3 "" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 5D900DE0
+P 2600 2150
+F 0 "J1" H 2557 2475 50  0000 C CNN
+F 1 "AudioJack4" H 2557 2384 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 2600 2150 50  0001 C CNN
+F 3 "~" H 2600 2150 50  0001 C CNN
+F 4 "WQP" H 0   0   50  0001 C CNN "MFR"
+F 5 "PJ320E" H 0   0   50  0001 C CNN "MPN"
+F 6 "AliExpress" H 0   0   50  0001 C CNN "SPR"
+F 7 "https://nl.aliexpress.com/item/1711810776.html" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    2600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D901F47
+P 2800 2150
+F 0 "#PWR0107" H 2800 1900 50  0001 C CNN
+F 1 "GND" V 2805 2022 50  0000 R CNN
+F 2 "" H 2800 2150 50  0001 C CNN
+F 3 "" H 2800 2150 50  0001 C CNN
+	1    2800 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack4 J2
+U 1 1 5D906394
+P 2600 2900
+F 0 "J2" H 2557 3225 50  0000 C CNN
+F 1 "AudioJack4" H 2557 3134 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 2600 2900 50  0001 C CNN
+F 3 "~" H 2600 2900 50  0001 C CNN
+F 4 "WQP" H 0   0   50  0001 C CNN "MFR"
+F 5 "PJ320E" H 0   0   50  0001 C CNN "MPN"
+F 6 "AliExpress" H 0   0   50  0001 C CNN "SPR"
+F 7 "https://nl.aliexpress.com/item/1711810776.html" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    2600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5D90639A
+P 2800 2900
+F 0 "#PWR0109" H 2800 2650 50  0001 C CNN
+F 1 "GND" V 2805 2772 50  0000 R CNN
+F 2 "" H 2800 2900 50  0001 C CNN
+F 3 "" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack4 J3
+U 1 1 5D90CA26
+P 6500 2800
+F 0 "J3" H 6457 3125 50  0000 C CNN
+F 1 "AudioJack4" H 6457 3034 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 6500 2800 50  0001 C CNN
+F 3 "~" H 6500 2800 50  0001 C CNN
+F 4 "WQP" H 0   0   50  0001 C CNN "MFR"
+F 5 "PJ320E" H 0   0   50  0001 C CNN "MPN"
+F 6 "AliExpress" H 0   0   50  0001 C CNN "SPR"
+F 7 "https://nl.aliexpress.com/item/1711810776.html" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6500 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5D90CA2C
+P 6300 2800
+F 0 "#PWR0110" H 6300 2550 50  0001 C CNN
+F 1 "GND" V 6305 2672 50  0000 R CNN
+F 2 "" H 6300 2800 50  0001 C CNN
+F 3 "" H 6300 2800 50  0001 C CNN
+	1    6300 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 2600 4000 2600
+Wire Wire Line
+	4000 2950 5600 2950
+Wire Wire Line
+	5050 2600 5050 3250
+Wire Wire Line
+	2800 2250 3250 2250
+Wire Wire Line
+	3850 2500 3850 2300
+Wire Wire Line
+	3850 2250 3850 2300
+Wire Wire Line
+	2800 2350 3100 2350
+Wire Wire Line
+	3100 2350 3100 3400
+Wire Wire Line
+	3100 3400 3150 3400
+Wire Wire Line
+	3150 3000 3150 2500
+Wire Wire Line
+	3150 2500 3250 2500
+Wire Wire Line
+	3750 3100 3850 3100
+Wire Wire Line
+	3850 3100 3850 3250
+Wire Wire Line
+	3850 3400 3750 3400
+Wire Wire Line
+	3850 3250 5050 3250
+Wire Wire Line
+	3850 3250 3850 3400
+Wire Wire Line
+	4100 2500 4100 1850
+Wire Wire Line
+	4100 2500 4250 2500
+Wire Wire Line
+	5200 950  5200 1050
+Wire Wire Line
+	5200 1050 5200 1450
+Wire Wire Line
+	5200 1450 5200 1600
+Wire Wire Line
+	5300 2000 5300 2100
+Wire Wire Line
+	5100 2000 5100 2400
+Wire Wire Line
+	5100 2400 5050 2400
+Wire Wire Line
+	5100 2400 5100 2500
+Wire Wire Line
+	5100 2500 5050 2500
+Wire Wire Line
+	5300 2100 5500 2100
+Wire Wire Line
+	4000 2600 4000 2950
+Wire Wire Line
+	5600 2300 5600 2450
+Wire Wire Line
+	5600 2450 5800 2450
+Wire Wire Line
+	6100 2450 6100 2600
+Wire Wire Line
+	6100 2600 6300 2600
+Wire Wire Line
+	5600 2950 5600 2750
+Wire Wire Line
+	5600 2750 5800 2750
+Wire Wire Line
+	6100 2750 6100 2700
+Wire Wire Line
+	6100 2700 6300 2700
+Wire Wire Line
+	5050 2300 5600 2300
+Wire Wire Line
+	3850 2300 4250 2300
+Wire Wire Line
+	2800 3000 3150 3000
+Wire Wire Line
+	2800 3100 3150 3100
+Connection ~ 3850 2300
+Connection ~ 3850 3250
+Connection ~ 5200 1050
+Connection ~ 5200 1450
+Connection ~ 5100 2400
+NoConn ~ 6300 2900
+Wire Wire Line
+	2800 2050 2800 2150
+Connection ~ 2800 2150
+Wire Wire Line
+	2800 2800 2800 2900
+Connection ~ 2800 2900
+$EndSCHEMATC
