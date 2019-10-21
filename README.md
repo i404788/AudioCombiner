@@ -16,7 +16,7 @@ The TDA1517 is a cheap Class B stereo amp, available for 0.17$.
 
 # License
 This hardware is licensed under 
-[Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/legalcode)
+[Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)
 
 
 ![by.svg](by.svg)
