@@ -1,4 +1,7 @@
 # Audio Combiner/Amp
+
+> Check out the blog post at https://blog.devdroplets.com/stereo-audio-combiner/
+
 This repository contains the KiCAD files for an analog audio combiner (2-stereo signals) with an Class B Amp.
 The board is rated up to 18V, but tested on 12V. Excepted power usage at 12V is 3W, though this will depend on your input.
 The board is `64.2x34.3x14mm` (smaller than a creditcard in width/height `85.6x54mm`)
